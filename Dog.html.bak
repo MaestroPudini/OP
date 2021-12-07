@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/main.css" />
+		<meta charset="utf-8" />
+		<style>
+			.picture-holder a {
+				display: block;
+				margin-bottom: 10px;
+			}
+		</style>
+		<title>Dog</title>
+	</head>
+	<body>
+		<h1>Это Собака:</h1>
+		<div class="picture-holder">
+			<a href="Index_.html">Index</a> 
+			<img src="img/Dog.jpg" style="width:300px" />
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/main.css" />
+		<meta charset="utf-8" />
+		<style>
+			.picture-holder a {
+				display: block;
+			}
+		</style>
+		
+		<script>
+			function increase_cat() {
+				document.getElementById("cat").style.width = "800px";
+			}
+		</script>
+		
+		<title>Кошка</title>
+	</head>
+	<body>
+		<h1>Это кошка:</h1>
+		<div class="picture-holder">
+			<a href="Index_.html">Оглавление</a> 
+			<img src="img/cat.jpg" onclick="increase_cat();"
+				style="width:500px" id="cat" />
+		</div>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/main.css" />
+		<meta charset="utf-8" />
+		<style>
+			.picture-holder a {
+				display: block;
+			}
+		</style>
+		
+		<script>
+			function increase_cat() {
+				document.getElementById("cat").style.width = "800px";
+				document.getElementById("hdr1").innerText = "Миу! - Миу! - Миу!";
+				new Audio ('Audio/tri-kota.mp3').play();
+			}
+
+		</script>
+	
+		<title>Кошка</title>
+	</head>
+	<body>
+		<h1 id="hdr1">Три Кота:</h1>
+		<div class="picture-holder">
+			<a href="Tri_Cota.html">Оглавление</a> 
+			<img src="img/Tri_Cota.jpg" onclick="increase_cat();"
+				style="width:500px" id="cat" />
+		</div>
+	</body>
+</html>
