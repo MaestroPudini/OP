@@ -1,5 +1,6 @@
 <?php
 // коментарии 
+//test commit
 
 $x = $_REQUEST["x"];
 $y = $_REQUEST["y"];
