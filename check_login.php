@@ -1,6 +1,7 @@
 <?php
     session_start();
-    include("C:\\AppParams/params.php");
+    //echo "Pas".getenv('MYAPP_CONFIG');
+    include(getenv('MYAPP_CONFIG'));
 ?>
 <html>
 	<head>
