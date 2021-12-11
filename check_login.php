@@ -43,6 +43,10 @@
             else {
                 echo ("BAD LOGIN!");
             }
-        ?>
+           // $_SESSION['user'] = $user;
+           // echo ($user);
+        ?> 
+        <form method="post" action="API/plus.php">
+        <form method="post" action="testuser.php">
 	</body>
 </html>
