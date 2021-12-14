@@ -43,8 +43,22 @@
                 var text = xhr.responseText;
                 var results = JSON.parse(text);
                 console.log(results);
-
-                document.getElementById("display").innerHTML = text;   
+                var out = "";
+                var counter = 0;
+                //Цикл по массиву
+                for(var i=0; i < results.length; i++){
+                    var calc = results[i];
+                    console.log(calc);
+                    var x = calc[1];
+                    var y = calc[2];
+                    var result = calc[3];
+                    var user = calc[4];
+                    out += "X:" + x + " Y:" + y + " Результат:" + result + "    Пользователь: " + user + "<br />";
+                    counter += 1;
+                }
+                document.getElementById("display").innerHTML = out;   
+                document.getElementById("amount").innerText = 
+                "Гони, " + counter + "$";   
             }
 
         </script>
@@ -52,7 +66,8 @@
     <body onload="getLog();">
         <a href="Index_.html">Портал</a> 
         <h1>Ваши вычисления</h1>
-        <div id="display".> </div>
+        <div id="display"> </div>
+        <h2 id="amount"> </h2>
     </body> 
 </html
 >   
