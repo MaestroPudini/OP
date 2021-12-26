@@ -1,9 +1,9 @@
 <?php
     session_start();
-    include(getenv('MYAPP_CONFIG'));
+    //include(getenv('MYAPP_CONFIG'));
     //include("C:\\AppParams/params.php");
     //include('var/www/html/params.php');
-    //include ("./params.php");
+    include ("./params.php");
 ?>
 
 <html>
