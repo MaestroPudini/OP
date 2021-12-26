@@ -12,7 +12,7 @@
     //echo ($user);
 
     include(getenv('MYAPP_CONFIG'));
-    //include('var/www/html/params.php');
+    //include("../params.php");
 
     //echo ($user);
             // Уязвимость для sql injection
