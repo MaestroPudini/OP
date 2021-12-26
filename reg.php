@@ -1,7 +1,7 @@
 <?php
     session_start();
-    include("C:\\AppParams/params.php");
-    //include('var/www/html/params.php');
+    //include("C:\\AppParams/params.php");
+    include('var/www/html/params.php');
 ?>
 
 <html>
