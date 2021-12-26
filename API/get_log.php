@@ -11,7 +11,8 @@
     $user = $_SESSION["user"];
     //echo ($user);
 
-    include(getenv('MYAPP_CONFIG'));
+    //include(getenv('MYAPP_CONFIG'));
+    include('var/www/html/params.php');
 
     //echo ($user);
             // Уязвимость для sql injection
