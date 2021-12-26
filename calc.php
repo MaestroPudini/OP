@@ -66,7 +66,7 @@
         </script>
     </head>
     <body>
-        <a href="Index_.html">Портал</a> 
+        <a href="index_.html">Портал</a> 
         <h1>Калькулятор</h1>
         <input id="x"/> <br />
         <input id="y"/> <br />

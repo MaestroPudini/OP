@@ -64,7 +64,7 @@
         </script>
     </head>
     <body onload="getLog();">
-        <a href="Index_.html">Портал</a> 
+        <a href="index_.html">Портал</a> 
         <h1>Ваши вычисления</h1>
         <div id="display"> </div>
         <h2 id="amount"> </h2>
