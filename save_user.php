@@ -19,8 +19,8 @@ if (empty($user) or empty($pwd))
     $user = trim($user);
     $pwd = trim($pwd);
 
-    include("C:\\AppParams/params.php");
-    //include('var/www/html/params.php');
+    //include("C:\\AppParams/params.php");
+    include('var/www/html/params.php');
 
     $hash = hash('sha256',$pwd);
 
