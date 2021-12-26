@@ -20,7 +20,8 @@ if (empty($user) or empty($pwd))
     $pwd = trim($pwd);
 
     //include("C:\\AppParams/params.php");
-    include('var/www/html/params.php');
+    //include('var/www/html/params.php');
+    include(getenv('MYAPP_CONFIG'));
 
     $hash = hash('sha256',$pwd);
 
